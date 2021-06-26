@@ -3,10 +3,10 @@
 /* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
 body {
     background-color: #000000;
+    font-family: 'Lato', sans-serif;
+   
 }
 nav {
-    
-    font-family:'Lato', sans-serif; 
     font-size: 18px;
 }
 
@@ -54,7 +54,6 @@ h2 {
 
 
 dl dt {
-    font-family: 'Lato', sans-serif;
     font-weight: 570;
     font-size: 26px;
 }
@@ -70,14 +69,13 @@ dd {
 
 
 .details {
-    font-family:'Lato',sans-serif;
+   
     font-weight: 560;
     order: 1;
 }
 
 /* Show the price of each item in a large font, in the color named 'firebrick' */
 .price {
-    font-family:'Lato', sans-serif;
     font-size:23px;
     color:firebrick;
     order: 2; 

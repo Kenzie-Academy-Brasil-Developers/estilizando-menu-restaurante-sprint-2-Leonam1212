@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald');
 
 /* Use the 'Oswald' font family at 14px throughout the body of the document. */
-nav {
-    font-family:'Oswald', sans-serif; 
+nav { 
     font-size: 14px;
 }
 body{
     background-color: rgb(10, 10, 10);
+    font-family:'Oswald',sans-serif;
 }
 
 #main {
@@ -30,7 +30,7 @@ body{
 }
 
 .details{
-font-family:'Oswald',sans-serif;
+
 
 }
 
@@ -41,14 +41,12 @@ section {
 
 /* Show each of the section headings of the menu (e.g. "Starters") in uppercase. */
 h2 {
-    font-family:'Oswald',sans-serif;
     text-transform: uppercase;
     margin-top: 0;
 }
 
 /* Make the name of each menu item appear in bold in a 16px size. */
 dt {
-    font-family:'Oswald',sans-serif;
     font-size: 16px;
     font-weight: bold;
     display: inline;
@@ -78,7 +76,6 @@ dt::after{
 
 /* Right-align the text of the address/footer */
 address {
-    font-family: 'Oswald',sans-serif;
     text-align: right;
     font-weight:lighter;
 }
